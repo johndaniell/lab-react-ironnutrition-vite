@@ -1,9 +1,16 @@
-import "./App.css";
+
+import React from 'react';
+import './App.css';
+import { Divider, Row } from 'antd';
+import FoodList from './components/FoodList';
 
 function App() {
   return (
     <div className="App">
-      <h1>LAB | React IronNutrition</h1>
+      <Divider>Food List</Divider>
+
+        <FoodList />
+
     </div>
   );
 }
